@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name - PhD Student</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #fff;
+      color: #222;
+    }
+    #container {
+      display: flex;
+    }
+    #sidebar {
+      width: 250px;
+      background: #f5f5f5;
+      padding: 20px;
+      border-right: 1px solid #ccc;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+    #sidebar h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    #sidebar a {
+      display: block;
+      margin: 5px 0;
+      color: #003399;
+      text-decoration: none;
+    }
+    #sidebar a:hover {
+      text-decoration: underline;
+    }
+    #main {
+      flex: 1;
+      padding: 30px;
+    }
+    #main h1 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .profile {
+      display: flex;
+      margin-top: 20px;
+    }
+    .profile img {
+      width: 200px;
+      margin-right: 30px;
+    }
+    .contact, .bio {
+      margin-top: 30px;
+    }
+    .contact a {
+      color: #003399;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="sidebar">
+      <h2>Your Name</h2>
+      <a href="#">Home</a>
+      <a href="#">Biography</a>
+      <a href="#">Research Areas</a>
+      <h3>Research</h3>
+      <a href="#">Papers</a>
+      <a href="#">Projects</a>
+      <h3>Teaching</h3>
+      <a href="#">Courses</a>
+      <h3>Contact</h3>
+    </div>
+    <div id="main">
+      <h1>Your Name</h1>
+      <div class="profile">
+        <img src="your-photo.jpg" alt="Your Photo">
+        <div>
+          <p><strong>PhD Student</strong><br>
+          Department of XYZ<br>
+          Room 123, ABC Building<br>
+          University Name</p>
+
+          <p><strong>Research Group:</strong><br>
+          <a href="#">Probability and AI Group</a><br>
+          <a href="#">Stochastic Systems Lab</a></p>
+
+          <p><strong>Email:</strong> <a href="mailto:you@university.edu">you@university.edu</a></p>
+        </div>
+      </div>
+
+      <div class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:you@university.edu">you@university.edu</a></p>
+        <p>Phone: +91-1234567890</p>
+        <p>Fax: +91-1234567891</p>
+      </div>
+
+      <div class="bio">
+        <h2>About Me</h2>
+        <p>
+          Welcome to my homepage! I am a PhD student working on stochastic control, optimization, and reinforcement learning. My research focuses on algorithms for stochastic dynamic systems with applications in autonomous systems, network control, and smart infrastructure.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
